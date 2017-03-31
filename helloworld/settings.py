@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pydj',
+        'NAME': 'cvpatel92$pydj',
         'USER': 'cvpatel92',
         'PASSWORD': '$Hreeji6392',
         'HOST': 'cvpatel92.mysql.pythonanywhere-services.com',
