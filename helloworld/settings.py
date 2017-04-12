@@ -26,7 +26,7 @@ SECRET_KEY = '33r4!(7v35$v-y585m)((l8&@vw3gi=!-mn0e1dtl-b!mu%b)f'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.cvpatel92.pythonanywhere.com', '*']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'helloworld.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR,'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
