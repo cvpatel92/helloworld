@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'welcome',
 ]
 
 MIDDLEWARE_CLASSES = [
@@ -76,14 +77,14 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'cvpatel92$pydj',
-        'USER': 'cvpatel92',
-        'PASSWORD': '$Hreeji6392',
-        'HOST': 'cvpatel92.mysql.pythonanywhere-services.com',
-        'PORT': '',
-    }
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'cvpatel92$pydj',
+#         'USER': 'cvpatel92',
+#         'PASSWORD': '$Hreeji6392',
+#         'HOST': 'cvpatel92.mysql.pythonanywhere-services.com',
+#         'PORT': '',
+#     }
 }
 
 
