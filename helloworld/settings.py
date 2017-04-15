@@ -24,9 +24,9 @@ STATIC_ROOT = os.path.join(STATIC_ROOT1, 'static')
 SECRET_KEY = '33r4!(7v35$v-y585m)((l8&@vw3gi=!-mn0e1dtl-b!mu%b)f'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['.cvpatel92.pythonanywhere.com', '*']
+ALLOWED_HOSTS = ['.cvpatel92.pythonanywhere.com']
 
 
 # Application definition
@@ -77,14 +77,14 @@ WSGI_APPLICATION = 'helloworld.wsgi.application'
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
 DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'cvpatel92$pydj',
-#         'USER': 'cvpatel92',
-#         'PASSWORD': '$Hreeji6392',
-#         'HOST': 'cvpatel92.mysql.pythonanywhere-services.com',
-#         'PORT': '',
-#     }
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'cvpatel92$pydj',
+        'USER': 'cvpatel92',
+        'PASSWORD': '$Hreeji6392',
+        'HOST': 'cvpatel92.mysql.pythonanywhere-services.com',
+        'PORT': '',
+    }
 }
 
 
