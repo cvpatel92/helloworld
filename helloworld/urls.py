@@ -19,5 +19,6 @@ import welcome.views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^chiragwedsheta/', welcome.views.wedding, name="wedding")
+    url(r'^chiragwedsheta/', welcome.views.wedding, name="wedding"),
+    url(r'^location/', welcome.views.location, name="location")
 ]

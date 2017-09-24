@@ -1,3 +1,4 @@
+{% load staticfiles %}
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -12,19 +13,7 @@
 	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
 	<meta name="author" content="FREEHTML5.CO" />
 
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			info@freehtml5.co
-	Twitter: 		http://twitter.com/fh5co
-	Facebook: 		https://www.facebook.com/fh5co
-
-	//////////////////////////////////////////////////////
-	 -->
+  
 
   	<!-- Facebook and Twitter integration -->
 	<meta property="og:title" content=""/>
@@ -74,12 +63,12 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a href="index.html">WeddingChetah<strong>.</strong></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
+						<li class="active"><a href="#">Home</a></li>
+						<!-- <li><a href="about.html">Story</a></li>  
 						<li class="has-dropdown">
 							<a href="services.html">Family</a>
 							<ul class="dropdown">
@@ -88,17 +77,17 @@
 								<li><a href="#">Branding</a></li>
 								<li><a href="#">API</a></li>
 							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Location</a>
-							<ul class="dropdown">
+						</li>  -->
+						<li>
+							<a href="http://cvpatel92.pythonanywhere.com/location/">Location</a>
+					<!-- 		<ul class="dropdown">
 								<li><a href="#">HTML5</a></li>
 								<li><a href="#">CSS3</a></li>
 								<li><a href="#">Sass</a></li>
 								<li><a href="#">jQuery</a></li>
-							</ul>
+							</ul> -->
 						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<!-- <li><a href="contact.html">Contact</a></li> -->
 					</ul>
 				</div>
 			</div>
@@ -106,7 +95,7 @@
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(/static/images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(/static/images/couple2.JPG);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -114,9 +103,10 @@
 					<div class="display-t">
 						<div class="display-tc animate-box" data-animate-effect="fadeIn">
 							<h1>Chirag &amp; Heta</h1>
-							<h2>We Are Getting Married</h2>
-							<div class="simply-countdown simply-countdown-one"></div>
-							<p><a href="#" class="btn btn-default btn-sm">Save the date</a></p>
+							<h2>We will be Getting Married</h2>
+							<!-- <div class="simply-countdown simply-countdown-one"></div> -->
+							<p class="heart text-center"><h3 style="color: red;">27th of January 2018</h3></p>
+							<p><a target="_blank" href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;tmeid=ZW5rYnBuNGFkc2c0NXRhMmtkNjdrdDFwajggY3ZwYXRlbDkyQG0&amp;tmsrc=cvpatel92%40gmail.com" class="btn btn-default btn-sm">Save the date</a></p>
 						</div>
 					</div>
 				</div>
@@ -136,21 +126,21 @@
 			<div class="couple-wrap animate-box">
 				<div class="couple-half">
 					<div class="groom">
-						<img src="/static/images/groom.png" alt="groom" class="img-responsive">
+						<img src="/static/images/groom.jpg" alt="groom" style="background-size: cover;" class="img-responsive">
 					</div>
 					<div class="desc-groom">
 						<h3>Chirag Patel</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>Son of Mr. Vasudev & Mrs. Nayana</p>
 					</div>
 				</div>
 				<p class="heart text-center"><i class="icon-heart2"></i></p>
 				<div class="couple-half">
 					<div class="bride">
-						<img src="/static/images/bride.jpg" alt="groom" class="img-responsive">
+						<img src="/static/images/bride" alt="bride">
 					</div>
 					<div class="desc-bride">
 						<h3>Heta Patel</h3>
-						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove</p>
+						<p>Daughter of Mr. Pinakin & Mrs. Jaya</p>
 					</div>
 				</div>
 			</div>
@@ -172,34 +162,48 @@
 						<div class="col-md-10 col-md-offset-1">
 							<div class="col-md-6 col-sm-6 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
+									<h3>Day before Wedding</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
-										<span>4:00 PM</span>
-										<span>6:00 PM</span>
+										<span>8:00 AM</span>
+										<span>9:00 PM</span>
+									</div>
+									<div class="event-col">
+										<i class="icon-calendar"></i>
+										<span>Saturday 26</span>
+										<span>January, 2018</span>
+									</div>
+									<ul>
+									<li><b><p>Ganesh Sthapana</p></b></li>
+									<li><b><p>Mandap Muhurt</p></b></li>
+									<li><b><p>Matli</p></b></li>
+									<li><b><p>Mosadu</p></b></li>
+									<li><b><p>Varadh</p></b></li>
+									<li><b><p>Varghodo</p></b></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6 col-sm-6 text-center">
+								<div class="event-wrap animate-box">
+									<h3>Wedding Day</h3>
+									<div class="event-col">
+										<i class="icon-clock"></i>
+										<span>8:00 AM</span>
+										<span>12:00 AM</span>
 									</div>
 									<div class="event-col">
 										<i class="icon-calendar"></i>
 										<span>Saturday 27</span>
 										<span>January, 2018</span>
 									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-								</div>
-							</div>
-							<div class="col-md-6 col-sm-6 text-center">
-								<div class="event-wrap animate-box">
-									<h3>Wedding Party</h3>
-									<div class="event-col">
-										<i class="icon-clock"></i>
-										<span>7:00 PM</span>
-										<span>12:00 AM</span>
-									</div>
-									<div class="event-col">
-										<i class="icon-calendar"></i>
-										<span>Saturday</span>
-										<span>January, 2018</span>
-									</div>
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<ul>
+									<li><b><p>Ganesh Sthapana</p></b></li>
+									<li><b><p>Varghodo</p></b></li>									
+									<li><b><p>Kanyadan</p></b></li>
+									<li><b><p>Hast Medap</p></b></li>
+									<li><b><p>Vidai</p></b></li>
+									<li><b><p>Ghar nu Laxmi</p></b></li
+									</ul>
 								</div>
 							</div>
 						</div>
@@ -208,7 +212,7 @@
 			</div>
 		</div>
 	</div>
-
+<!-- 
 	<div id="fh5co-couple-story">
 		<div class="container">
 			<div class="row">
@@ -241,7 +245,7 @@
 									<span class="date">February 15, 2017</span>
 								</div>
 								<div class="timeline-body">
-									<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+									<p>Far far away, across the word 7 oceans, far from the countries USA and India, there live the love birds.</p>
 								</div>
 							</div>
 						</li>
@@ -262,94 +266,94 @@
 			</div>
 		</div>
 	</div>
-
+ -->
 	<div id="fh5co-gallery" class="fh5co-section-gray">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading animate-box">
 					<span>Our Memories</span>
-					<h2>Wedding Gallery</h2>
-					<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+					<h2>Single's Mingle</h2>
+					<p>Far far away, across the word seven oceans, far from the countries USA and India, there live the love birds.</p>
 				</div>
 			</div>
 			<div class="row row-bottom-padded-md">
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
 						
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-1.jpg); "> 
-						<a href="/static/images/gallery-1.jpg">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg6.png); "> 
+						<a href="/static/images/tg1.png">
 							<div class="case-studies-summary">
-								<span>14 Photos</span>
-								<h2>Two Glas of Juice</h2>
+								<!-- <span>14 Photos</span> -->
+								<h2>Mr. & Ms. Gift</h2>
 							</div>
 						</a>
 					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-2.jpg); ">
-						<a href="#" class="color-2">
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg9.png); ">
+						<a href="tg2.png" class="color-2">
 							<div class="case-studies-summary">
-								<span>30 Photos</span>
-								<h2>Timer starts now!</h2>
-							</div>
-						</a>
-					</li>
-
-
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-3.jpg); ">
-						<a href="#" class="color-3">
-							<div class="case-studies-summary">
-								<span>90 Photos</span>
-								<h2>Beautiful sunset</h2>
-							</div>
-						</a>
-					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-4.jpg); ">
-						<a href="#" class="color-4">
-							<div class="case-studies-summary">
-								<span>12 Photos</span>
-								<h2>Company's Conference Room</h2>
+								<!-- <span>30 Photos</span> -->
+								<h2>Happiness !!</h2>
 							</div>
 						</a>
 					</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-5.jpg); ">
+
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg4.jpg); ">
+						<a href="tg3.png" class="color-3">
+							<div class="case-studies-summary">
+								<!-- <span>90 Photos</span> -->
+								<h2>Engagement Celebrations</h2>
+							</div>
+						</a>
+					</li>
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg10.png); ">
+						<a href="tg3" class="color-4">
+							<div class="case-studies-summary">
+								<!-- <span>12 Photos</span> -->
+								<h2>Fiance</h2>
+							</div>
+						</a>
+					</li>
+
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg8.jpg); ">
 							<a href="#" class="color-3">
 								<div class="case-studies-summary">
-									<span>50 Photos</span>
-									<h2>Useful baskets</h2>
+									<!-- <span>50 Photos</span> -->
+									<h2>Useful basket</h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-6.jpg); ">
-							<a href="#" class="color-4">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/heta.png); ">
+							<a href="tg2" class="color-4">
 								<div class="case-studies-summary">
-									<span>45 Photos</span>
-									<h2>Skater man in the road</h2>
+									<!-- <span>45 Photos</span> -->
+									<h2>Fiancee</h2>
 								</div>
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-7.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/couple-1.jpg); ">
 							<a href="#" class="color-4">
 								<div class="case-studies-summary">
-									<span>35 Photos</span>
-									<h2>Two Glas of Juice</h2>
+									<!-- <span>35 Photos</span> -->
+									<h2>Fun Trip</h2>
 								</div>
 							</a>
 						</li>
 
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-8.jpg); "> 
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg5.png); "> 
 							<a href="#" class="color-5">
 								<div class="case-studies-summary">
-									<span>90 Photos</span>
-									<h2>Timer starts now!</h2>
+									<!-- <span>90 Photos</span> -->
+									<h2>Selfie Time :)</h2>
 								</div>
 							</a>
 						</li>
-						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/gallery-9.jpg); ">
+						<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(/static/images/tg1.png); ">
 							<a href="#" class="color-6">
 								<div class="case-studies-summary">
-									<span>56 Photos</span>
-									<h2>Beautiful sunset</h2>
+									<!-- <span>56 Photos</span> -->
+									<h2>Engaged &#10084</h2>
 								</div>
 							</a>
 						</li>
@@ -358,6 +362,9 @@
 			</div>
 		</div>
 	</div>
+
+<!-- 
+
 
 	<div id="fh5co-counter" class="fh5co-bg fh5co-counter" style="background-image:url(/static/images/img_bg_5.jpg);">
 		<div class="overlay"></div>
@@ -465,54 +472,57 @@
 			</div>
 		</div>
 	</div>
-
+ -->
 	<div id="fh5co-services" class="fh5co-section-gray">
 		<div class="container">
 			
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>We Offer Services</h2>
-					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+					<h2>Togetherness</h2>
+					<p>The most important thing in the world is family and love.</p>
 				</div>
 			</div>
-
+			
+			
 			<div class="row">
+			
 				<div class="col-md-6">
 					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
 						<span class="icon">
-							<i class="icon-calendar"></i>
+							<i class="icon-heart2"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>We Organized Events</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+							<h3>Love</h3>
+							<p>They say you only fall in love once, but that can't be true. Every time I look at you, I fall in love all over again </p>
+							
 						</div>
 					</div>
 
 					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
 						<span class="icon">
-							<i class="icon-image"></i>
+							<i class="icon-heart2"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>Photoshoot</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+							<h3>Consequences</h3>
+							<p>Being deeply loved by someone gives you strength, while loving someone deeply gives you courage</p>
 						</div>
 					</div>
 
 					<div class="feature-left animate-box" data-animate-effect="fadeInLeft">
 						<span class="icon">
-							<i class="icon-video"></i>
+							<i class="icon-heart2"></i>
 						</span>
 						<div class="feature-copy">
-							<h3>Video Editing</h3>
-							<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
+							<h3>Family</h3>
+							<p>Marriage is not about two persons, it's about two families </p>
 						</div>
 					</div>
 
 				</div>
-
+ 			
 				<div class="col-md-6 animate-box">
 					<div class="fh5co-video fh5co-bg" style="background-image: url(/static/images/img_bg_3.jpg); ">
-						<a href="https://vimeo.com/channels/staffpicks/93951774" class="popup-vimeo"><i class="icon-video2"></i></a>
+						<a href="https://www.youtube.com/watch?v=xLNkQ8w8Q9Y" class="popup-vimeo"><i class="icon-video2"></i></a>
 						<div class="overlay"></div>
 					</div>
 				</div>
@@ -522,14 +532,14 @@
 		</div>
 	</div>
 
-
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(/static/images/img_bg_4.jpg);">
+<!-- 
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(https://assets.sermoncentral.com/images/MediaVaultImages/6227_thumbnail.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
 					<h2>Are You Attending?</h2>
-					<p>Please Fill-up the form to notify you that you're attending. Thanks.</p>
+					<p>Please Fill-up the form to notify that you're attending. Thanks.</p>
 				</div>
 			</div>
 			<div class="row animate-box">
@@ -555,6 +565,8 @@
 			</div>
 		</div>
 	</div>
+	
+	 -->
 
 	<footer id="fh5co-footer" role="contentinfo">
 		<div class="container">
@@ -562,15 +574,14 @@
 			<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<!-- <small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>   --> 
+						<small class="block">Designed by <a href="http://cvpatel92.com/" target="_blank">Chirag Patel</a> 
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-linkedin"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+							<li><a href="https://twitter.com/cvpatel92/" target="_blank"><i class="icon-twitter"></i></a></li>
+							<li><a href="https://facebook.com/cvpatel92/" target="_blank"><i class="icon-facebook"></i></a></li>
+							<li><a href="https://www.linkedin.com/cvpatel92/" target="_blank"><i class="icon-linkedin"></i></a></li>							
 						</ul>
 					</p>
 				</div>
